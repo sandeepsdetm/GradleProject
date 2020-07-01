@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="57059" started-at="2020-07-01T11:02:03Z" finished-at="2020-07-01T11:03:00Z">
+    <groups>
+    </groups>
+    <test name="C:/Users/root/IdeaProjects/untitled1/src/test/java/gradleselenium/Demo.java" duration-ms="57059" started-at="2020-07-01T11:02:03Z" finished-at="2020-07-01T11:03:00Z">
+      <class name="gradleselenium.Demo">
+        <test-method status="PASS" signature="test1()[pri:0, instance:gradleselenium.Demo@92e9c26]" name="test1" duration-ms="57012" started-at="2020-07-01T16:32:03Z" finished-at="2020-07-01T16:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- gradleselenium.Demo -->
+    </test> <!-- C:/Users/root/IdeaProjects/untitled1/src/test/java/gradleselenium/Demo.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
