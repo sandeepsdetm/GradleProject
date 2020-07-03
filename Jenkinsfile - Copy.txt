@@ -1,0 +1,26 @@
+pipeline {
+	agent {
+	node {
+		label 'master'
+}
+}
+options {
+	timestamps()
+}
+
+stages {
+stage ("checkout,test and publish")
+{
+    steps
+    {
+	checkout scm
+	script{
+		bat(/gradle clean test -PsuiteFile="$suiteFileName"/)
+	}
+
+	step([$class: 'Publisher', reportFilenamePattern: '**/testng-results.xml'])
+	
+    }
+}
+}
+}
